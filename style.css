@@ -331,11 +331,24 @@ border: none;
     flex-direction: column;
     width: 90%;
     padding: 10px;
+    box-sizing: border-box;
+    overflow: visible;
 }
 .cards-2>img{
     width: 100px;
 height: 30px;    
 
+}
+.image-1{
+    top:26%;
+    overflow: visible;
+    position: absolute;
+    left:1%;
+    margin-left: 25%;
+    padding-top:0% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .cards-top,.cards-2>p{
     display: flex;
@@ -398,6 +411,7 @@ align-items: center;
     width: 100%;
 padding-inline: 5%;
 }
+
 @media screen (min-width:470px){
     .course{
         display:flex;
@@ -415,4 +429,13 @@ padding-inline: 5%;
     header{
         display: none;
     }
+}
+.right-part:hover{
+    box-shadow: 0px 0px 60px plum;
+}
+.beginner:hover,.intermediate:hover{
+    box-shadow: 0px 0px 60px pink;
+}
+.col:hover{
+    box-shadow: 0px 0px 40px gray;
 }
