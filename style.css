@@ -436,6 +436,3 @@ padding-inline: 5%;
 .beginner:hover,.intermediate:hover{
     box-shadow: 0px 0px 60px pink;
 }
-.col:hover{
-    box-shadow: 0px 0px 40px gray;
-}
